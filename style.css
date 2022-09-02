@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: url(https://cdn.pixabay.com/photo/2018/09/18/21/08/couple-3687274_960_720.jpg);
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed; /*THIS FIXES THE BACKGROUND, THUS WHEN SCROLLING, IT REMAINS VISIBLE*/
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 8%;
+   
+}
+
+nav .menu-img{
+    width: 120px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    font-weight: bolder;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    font-weight: 400px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s ease-in-out;
+
+}
+
+button {
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+}
+/* MAKING THE LOGIN BUTTON HOVER INTO YELLOW*/
+button:hover{
+    background: yellow;
+}
+.body h1{
+    margin-left: 50px;
+    position: relative;
+    font-size: 55px;
+    color: yellow;
+    font-weight: 600px;
+    margin-top: 270px;
+}
+
+.body p{
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.sign-up-form{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    margin-right: 10%;
+    position: relative;
+    top: -425px;
+    background-color: rgba(252, 245, 245, 0.3); 
+    opacity: 0.9;
+    border-radius: 25px;
+    border: 1px solid rgb(143, 142, 142);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5); /*THIS IS THE SHADOW ON THE RIGHT OF THE FORM*/
+    color: white;   
+    height: 450px;
+    text-align: center;
+    line-height: 25px;
+
+    
+}
+
+.sign-up-form h1{
+    color: yellow;
+    margin-bottom: 30px;
+    margin: 20px;
+    line-height: 20px;    
+
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid yellow;
+    
+}
+
+#sign-up{
+    padding: 10px;
+    margin: 8px 15px;
+    width: 200px;
+    height: 35px;
+    background: yellow; /*This is is the color of the button*/
+    text-align: center;
+}
+
+#sign-up-btn{
+    padding: 10px;
+    cursor: pointer;
+    margin: 8px 15px;
+    width: 200px;
+    height: 35px;
+    background: yellow; /*This is is the color of the button*/
+    
+}
+
+.button{
+    background: yellow;
+}
+
+#sign-in:hover{
+    background: yellow;
+}
+
+.sec-two{
+    /* background: url(https://cdn.pixabay.com/photo/2014/04/15/03/44/earth-324585_960_720.jpg); */
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    text-align: center; 
+}
+
+h4{    
+    text-align: center; 
+    padding: 9%;
+    font-size: 60px;  
+    margin-left: 20%;
+}
+
+.sec-two p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.read-more-bttn{
+    background-color: rgb(243, 234, 234);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 8px 15px;
+    width: 200px;
+    height: 35px;
+    border-style: double;
+    border-radius: 15px;
+
+}
+
+.read-more-bttn:hover{
+    background: yellow;
+}
+
+.text.show-more .moreTxt{
+    display:inline
+}
+
+text.show-more .moreTxt .dots{
+    display: none;
+}
+
+.sec3{
+    background: url(https://cdn.pixabay.com/photo/2018/09/18/21/08/couple-3687274_960_720.jpg);
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed
+
+}
+
+h5{
+    text-align: center; 
+    padding: 9%;
+    font-size: 60px;  
+    text-align: center;
+    color: white;
+}
+
+#the-body{
+    color: white;
+    font-weight: 300px;
+}
+
+#the-body p{
+    text-align: center; 
+    /* padding: 9%; */
+    /* font-size: 20px;   */
+    /* margin-left: 10%; */
+}
+
+.footer{
+    background: black;
+    flex-flow: column;
+}
+
+#dots{
+    display: none;
+}
